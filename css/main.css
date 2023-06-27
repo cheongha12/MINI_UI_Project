@@ -74,3 +74,8 @@ h2 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
+.contentWrapper {
+  width: 100%;
+  min-width: 32rem;
+  margin: 0 auto;
+}
