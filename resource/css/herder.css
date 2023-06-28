@@ -1,0 +1,151 @@
+.contentWrapper {
+    width: 100%;
+    min-width: 32rem;
+    margin: 0 auto;
+}
+.div {
+    display: block;
+}
+.tourHeader1 {
+    height: 185px;
+}
+.gatewayWrapper {
+    background-color: #f4f6f9;
+    border-bottom: 1px solid #eaedf2;
+}
+.gatewayInterGate{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px; margin: 0 auto;
+    font-size: 13px;
+}
+ul{
+    list-style: none;
+}
+.navbar-nav{
+    display: flex;
+    gap: 25px;
+}
+.navigationInner{
+    font-size: 15px;
+    font-weight: 800;
+}
+.headWrapper {
+    display: flex;
+    align-items: center;
+    width: 1250px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0;
+}
+.headerLogo {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.headerserch {
+    position: relative;
+    z-index: 90;
+    width: 400px;
+    margin-left: 100px;
+    display: block;
+}
+.headerserch{
+    position: relative;
+    align-items: center;
+}
+.headerserch2{
+    position: absolute;
+}
+.aa{
+    width: 70%;
+}
+/*헤더 3번쨰 줄*/
+.navigationInner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 1300px; margin: 0 auto;
+    text-decoration:none;
+}
+
+.localNavigation > ul > li {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+}
+.localNavigation > ul {
+    margin: 0 10px;
+}
+.seasonNavigation {
+    height: 50px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    text-align: right;
+}
+seasonNavigation .seasonBanner:not(:last-child) {
+    margin-right: 30px;
+}
+.seasonNavigation .seasonBanner {
+    display: inline-block;
+    min-height: 50px;
+    font-size: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+/* 여행혜택 + 선물 */
+.active{
+    display: flex;
+}
+.first{
+    position: absolute;
+    margin-left: 60px;
+    width: 20px;
+}
+/* 여행혜택 + 1등특가 */
+.seasonNavigation{
+    margin-right: 30px;
+    position: relative;
+}
+/* 1등특가 + 트로피 */
+.nav-item{
+    display: flex;
+}
+.second{
+    position: absolute;
+    margin-left: 60px;
+    width: 20px;
+}
+.gatewayMenus {
+    text-decoration:none;
+    padding-left: 7px;
+}
+a {
+    text-decoration:none;
+}
+.seasonBannertravel {
+    padding-left: none;
+    text-decoration:none;
+    margin-right: 30px;
+    min-height: 50px;
+    
+    /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+    height: 50px;
+    margin-right: 10px;
+       
+}
+.seasonNavigationtrophy {
+    .seasonNavigation .seasonBanner {
+        display: inline-block;
+        min-height: 50px;
+        font-size: 0;
+        vertical-align: top;
+        box-sizing: border-box;
+        /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+    }
+}
