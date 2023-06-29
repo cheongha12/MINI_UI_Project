@@ -152,3 +152,19 @@ a {
         /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
     }
 }
+
+
+
+
+
+.itemTitle{
+    font-weight: bold;
+}
+.itemSubText{
+    font-size: 75%;
+}
+.itemThumImg{
+    right: 15px;
+    top: 17px;
+    position: absolute;
+}

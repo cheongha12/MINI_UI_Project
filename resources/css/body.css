@@ -1,0 +1,26 @@
+.abc > ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.abc li{
+    border: 1px solid gainsboro;
+    /* width: 150px;
+    height: 150px; */
+    position: relative;
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    padding: 25px 25px 0;
+}
+.tourMain * {
+    line-height: 1.5;
+}
+.tourMain{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.maintitle{
+    text-align: center;
+}
