@@ -153,3 +153,6 @@
 .tourEnterFooter .corpList .dropdown:hover .dropdown-content {
   display: block;
 }
+.classid{
+  size: 0;
+}
