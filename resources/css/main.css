@@ -1,0 +1,81 @@
+html {
+    text-size-adjust: none;
+    -webkit-touch-callout: none;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 62.5%;
+    background-color: #fff;
+  }
+  abbr, address, article, aside, audio, b, blockquote, body, canvas,
+   caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, 
+   figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, 
+   ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, 
+   span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+   }
+  body * {
+    letter-spacing: 0;
+    word-spacing: 0;
+  }
+  ol, ul {
+    list-style: none;
+  
+  }
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+  li {
+    display: list-item;
+  }
+  div {
+    display: block;
+  }
+  p { 
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+  }
+  a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+  }
+  
+  article, aside, details, figcaption, figure
+  , footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  .contentWrapper {
+    width: 100%;
+    min-width: 32rem;
+    margin: 0 auto;
+  }
