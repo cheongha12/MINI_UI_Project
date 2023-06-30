@@ -9,7 +9,11 @@
   <link rel="stylesheet" href="resources/css/herder.css">
   <link rel="stylesheet" href="resources/css/main.css">
   <link rel="stylesheet" href="resources/css/body.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+  <!-- Swiper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
+      
 </head>
 <div class="contentWrapper">
   <header class="tourHeader1">
@@ -237,63 +241,126 @@
           </a>
         </div>
       </section>
-      <section>
-        <h2 class="maintitle">광고배너</h2>
-        <div class="기능구현">
 
-        </div>
-      </section>
       <section>
+        <div class="banner">
+        <div class="swiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="resources/images/배너1.jpg"></a></div>
+            <div class="swiper-slide"><img src="resources/images/배너2.jpg"></a></div>
+            <div class="swiper-slide"><img src="resources/images/배너3.jpg"></a></div>
+            <div class="swiper-slide"><img src="resources/images/배너4.jpg"></a></div>
+            <div class="swiper-slide"><img src="resources/images/배너5.jpg"></a></div>
+          </div>
+          <!-- 네비게이션 -->
+          <div class="swiper2-button-next"></div><!-- 다음 버튼 (오른쪽에 있는 버튼) -->
+          <div class="swiper2-button-prev"></div><!-- 이전 버튼 -->
+        
+        </div>
+      </div>
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper2', {
+    slidesPerView : 3, // 동시에 보여줄 슬라이드 갯수
+    navigation : { // 네비게이션
+  nextEl : '.swiper2-button-next', // 다음 버튼 클래스명
+  prevEl : '.swiper2-button-prev', // 이번 버튼 클래스명
+},
+  });
+
+  function getDirection() {
+    var windowWidth = window.innerWidth;
+    var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+    return direction;
+  }
+</script>
+      <!---------------------------------------->
+      <section class="travelDiscovery">
         <hgroup>
           <h2 class="maintitle">여행의 발견</h2>
         </hgroup>
-        <div class="기능구현">
-
-        </div>
-      </section>
-      <section>
-        <hgroup>
-          <h2 class="maintitle">여행 LIVE</h2>
-        </hgroup>
-        <div>
-          <div>
-            <ul>
-              <li>
-                <a href="#">
-                  <div class=""></div>
-                  <div class="itemInfo">
-                    <div class="itemTitle">[글래드 호텔] 룸온리&조식2인패키지
-                      최대70% 할인!</div>
-                    <div class="itemSubText">영상으로 보고 특
-                      가로 체크인!</div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <div class=""></div>
-                  <div class="itemInfo">
-                    <div class="itemTitle">해외여행 1등은 크
-                      다, 인터파크다</div>
-                    <div class="itemSubText">영상으로 보고 특
-                      가로 체크인!</div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <div class="itemInfo">
-                    <div class="itemTitle">내 취향에 딱 맞는 괌
-                      숙소 고르기! 이것만 보면 끝??</div>
-                    <div class="itemSubText">영상으로 보고 특
-                      가로 체크인!</div>
-                  </div>
-                </a>
-              </li>
-            </ul>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><span class="swipwetext1">5성급이 6만원대?<br>가성비 5성급 호텔 BEST7</span> 
+              <a href="https://triple.guide/articles/75b34bfd-09c2-4f71-81bb-c192b4a2e43f?_triple_no_navbar&_triple_swipe_to_close&utm_source=interpark_mo&utm_medium=display_ad&utm_campaign=interpark_magazine&utm_term=5star_6manwon_hotel7"><img src="resources/images/여행의발견1.jpg"></a></div>
+            <div class="swiper-slide"><span class="swipwetext2">나에게 딱 맞는<br>베트남 여행지는 어디?</span>
+              <a href="https://triple.guide/articles/f98cf76e-f541-4fc1-928d-2b2c823b4674?_triple_no_navbar&_triple_swipe_to_close&utm_source=interpark_mo&utm_medium=display_ad&utm_campaign=interpark_magazine&utm_term=vietnam_travel_forme"> <img src="resources/images/여행의발견2.jpg"></a></div>
+            <div class="swiper-slide"><span class="swipwetext3">1주일의자유,여름휴가!<br>가장 알찬 유럽여행코스는?</span>
+              <a href="https://triple.guide/articles/c6e92520-e657-4987-8efc-7e45ac470f2a?_triple_no_navbar&_triple_swipe_to_close&utm_source=interpark_mo&utm_medium=display_ad&utm_campaign=interpark_magazine&utm_term=oneweek_vacation_europe"><img src="resources/images/여행의발견3.jpg"></div>
+            <div class="swiper-slide"><span class="swipwetext4">내가 사려고 모아본<br>면세점 주류 쇼핑 리스트</span>
+              <a href="https://triple.guide/articles/662ee2da-9c4c-47eb-ae4d-c9a8d35d602a?_triple_no_navbar&_triple_swipe_to_close&utm_source=interpark_mo&utm_medium=display_ad&utm_campaign=interpark_magazine&utm_term=dutyfreee_drinklists"><img src="resources/images/여행의발견4.jpg"></a></div>
+            <div class="swiper-slide"><span class="swipwetext5">걸어서 oo속으로<br>걷는 만큼 보이는 뚜벅이 여행</span>
+              <a href="https://triple.guide/articles/5ffbd6a5-ccbf-4baa-8703-b1965d923b8b?_triple_no_navbar&_triple_swipe_to_close&utm_source=interpark_mo&utm_medium=display_ad&utm_campaign=interpark_magazine&utm_term=travel_bywalk_newyork"><img src="resources/images/여행의발견5.jpg"></a></div>
           </div>
+        
+          <!-- 네비게이션 -->
+          <div class="swiper-button-next"></div><!-- 다음 버튼 (오른쪽에 있는 버튼) -->
+          <div class="swiper-button-prev"></div><!-- 이전 버튼 -->
+        
+          <!-- 페이징 -->
+          <div class="swiper-pagination"></div>
         </div>
+        <div style="text-align:center; margin-top:5px;"></div>
+        <script>
+          new Swiper('.swiper-container', {
+slidesPerView : 4, // 동시에 보여줄 슬라이드 갯수
+spaceBetween : 1, // 슬라이드간 간격
+slidesPerGroup : 4, // 그룹으로 묶을 수, slidesPerView 와 같은 값을 지정하는게 좋음
+
+// 그룹수가 맞지 않을 경우 빈칸으로 메우기
+// 3개가 나와야 되는데 1개만 있다면 2개는 빈칸으로 채워서 3개를 만듬
+loopFillGroupWithBlank : true,
+
+loop : false, // 무한 반복 true하면 무한반복
+
+pagination : { // 페이징
+  el : '.swiper-pagination',
+  clickable : true, // 페이징을 클릭하면 해당 영역으로 이동, 필요시 지정해 줘야 기능 작동
+},
+navigation : { // 네비게이션
+  nextEl : '.swiper-button-next', // 다음 버튼 클래스명
+  prevEl : '.swiper-button-prev', // 이번 버튼 클래스명
+},
+});
+        </script>
       </section>
+      <!------------------------------------------------------------------------->
+      <hgroup>
+        <h2 class="maintitle">여행 LIVE</h2>
+      </hgroup>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="https://events.interpark.com/exhibition?exhibitionCode=230615008">
+            <img src="resources/images/호텔.jpg"><div class="swipwetext6">[라마다 여수$군산] 최대 80% 라이브특가 할인,예약</div>
+            <div class="swipwetext7">영상으로 보고 특가로 체크인!</div></span></a></div>
+          <div class="swiper-slide"><a href="https://www.youtube.com/watch?v=QDnZGKQHtas&feature=youtu.be">
+            <img src="resources/images/1등은크다.png"><div class="swipwetext8">해외여행 1등은 크다, 인터파크다</div>
+            <div class="swipwetext9">영상으로 보고 특가로 체크인!</div></a></div>
+          <div class="swiper-slide"><a href="https://www.youtube.com/watch?v=IYdyEgRUf0w&feature=youtu.be">
+            <img src="resources/images/뉴요커처럼.jpg"><div class="swipwetext10">생각보다 살만한 물가! 뉴요커처럼 뉴욕한달살기</div>
+            <div class="swipwetext11">영상으로 보고 특가로 체크인!</div></a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          freeMode: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+      
+        <!------------------------------------------------------------------------>
       <section>
         <hgroup>
           <h2 class="maintitle">유용한 정보</h2>
