@@ -1,9 +1,10 @@
-.abc > ul{
+.abc>ul {
     list-style: none;
     display: flex;
     gap: 30px;
 }
-.abc li{
+
+.abc li {
     border: 1px solid gainsboro;
     /* width: 150px;
     height: 150px; */
@@ -13,14 +14,184 @@
     height: 100px;
     padding: 25px 25px 0;
 }
+
 .tourMain * {
     line-height: 1.5;
 }
-.tourMain{
+
+.tourMain {
     width: 1300px;
     margin: 0 auto;
 }
 
-.maintitle{
+.maintitle {
     text-align: center;
+}
+/*---------배너---------*/
+.swiper-wrapper{
+    text-align: center;
+    display: flex;
+    /* 내용을 중앙정렬 하기위해 flex 사용 */
+    align-items: center;
+    /* 위아래 기준 중앙정렬 */
+    /* justify-content: center; */
+    /* 좌우 기준 중앙정렬 */
+}
+
+  .swiper-slide {
+    
+    text-align: center;
+    /* font-size: 18px; */
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 760px) {
+    .swiper-button-next {
+      right: 20px;
+      transform: rotate(90deg);
+    }
+
+    .swiper-button-prev {
+      left: 20px;
+      transform: rotate(90deg);
+    }
+  }
+
+/* 여행의발견 css*/
+.swiper-container {
+    height: 420px;
+    /* border:5px solid silver; */
+    border-radius: 7px;
+}
+
+/* box-shadow:0 0 20px #ccc inset;
+ */
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    /* 내용을 중앙정렬 하기위해 flex 사용 */
+    align-items: center;
+    /* 위아래 기준 중앙정렬 */
+    justify-content: center;
+    /* 좌우 기준 중앙정렬 */
+}
+
+.swiper-slide img {
+    /* box-shadow:0 0 5px #555; */
+    max-width: 93%;
+    /*이미지 사이 칸 나누기*/
+}
+
+/* 이미지 최대너비를 제한, 슬라이드에 이미지가 여러개가 보여질때 필요 */
+/* 이 예제에서 필요해서 설정했습니다. 상황에따라 다를 수 있습니다. */
+
+/*여행의발견 폰트 사이즈 위치 색깔*/
+.swipwetext1 {
+    left: 30px;
+    width: 250px;
+    text-align: left;
+    bottom: 310px;
+    font-size: 1.2em;
+    font-weight: BOLD;
+    position: absolute;
+    margin: 10px auto;
+    
+}
+
+.swipwetext1 {
+    color: white;
+}
+
+.swipwetext2 {
+    left: 30px;
+    width: 250px;
+    text-align: left;
+    bottom: 310px;
+    font-size: 1.2em;
+    font-weight: BOLD;
+    position: absolute;
+    margin: 10px auto;
+}
+
+.swipwetext2 {
+    color: white;
+}
+
+.swipwetext3 {
+    left: 30px;
+    width: 250px;
+    text-align: left;
+    bottom: 310px;
+    font-size: 1.2em;
+    font-weight: BOLD;
+    position: absolute;
+    margin: 10px auto;
+}
+
+.swipwetext3 {
+    color: white;
+}
+
+.swipwetext4 {
+    left: 30px;
+    width: 250px;
+    text-align: left;
+    bottom: 310px;
+    font-size: 1.2em;
+    font-weight: BOLD;
+    position: absolute;
+    margin: 10px auto;
+}
+
+.swipwetext4 {
+    color: black;
+}
+.swipwetext5 {
+    left: 30px;
+    width: 270px;
+    text-align: left;
+    bottom: 310px;
+    font-size: 1.2em;
+    font-weight: BOLD;
+    position: absolute;
+    margin: 10px auto;
+}
+
+.swipwetext5 {
+    color: white;
+}
+/*여행 live*/
+.swipwetext6 {
+    text-align: center;
+    color: black;
+    font-weight: BOLD;
+    margin: 0 auto;
+    
+    
+}
+.swipwetext7 {
+    text-align: center;
+    color: black;
+    margin: 0 auto;
+}
+.swipwetext8 {
+    text-align: center;
+    color: black;
+    font-weight: BOLD;
+}
+.swipwetext9 {
+    text-align: center;
+    color: black;
+}
+.swipwetext10 {
+    text-align: center;
+    color: black;
+    font-weight: BOLD;
+}
+.swipwetext11 {
+    text-align: center;
+    color: black;
 }
