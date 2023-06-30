@@ -4,14 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Swiper JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <title>Document</title>
   <link rel="stylesheet" href="resources/css/footer.css">
   <link rel="stylesheet" href="resources/css/herder.css">
   <link rel="stylesheet" href="resources/css/main.css">
   <link rel="stylesheet" href="resources/css/body.css">
-  <!-- Swiper JS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
       
 </head>
 <div class="contentWrapper">
@@ -224,7 +224,7 @@
 
       <section>
         <div class="banner">
-        <div class="swiper2">
+        <div class="swiper swiper2">
           <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="resources/images/배너1.jpg"></a></div>
             <div class="swiper-slide"><img src="resources/images/배너2.jpg"></a></div>
@@ -233,34 +233,18 @@
             <div class="swiper-slide"><img src="resources/images/배너5.jpg"></a></div>
           </div>
           <!-- 네비게이션 -->
-          <div class="swiper2-button-next"></div><!-- 다음 버튼 (오른쪽에 있는 버튼) -->
-          <div class="swiper2-button-prev"></div><!-- 이전 버튼 -->
+          <div class="swiper-button-next"></div><!-- 다음 버튼 (오른쪽에 있는 버튼) -->
+          <div class="swiper-button-prev"></div><!-- 이전 버튼 --> 
         
         </div>
       </div>
-<!-- Initialize Swiper -->
-<script>
-  var swiper = new Swiper('.swiper2', {
-    slidesPerView : 3, // 동시에 보여줄 슬라이드 갯수
-    navigation : { // 네비게이션
-  nextEl : '.swiper2-button-next', // 다음 버튼 클래스명
-  prevEl : '.swiper2-button-prev', // 이번 버튼 클래스명
-},
-  });
 
-  function getDirection() {
-    var windowWidth = window.innerWidth;
-    var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
-
-    return direction;
-  }
-</script>
       <!---------------------------------------->
       <section class="travelDiscovery">
         <hgroup>
           <h2 class="maintitle">여행의 발견</h2>
         </hgroup>
-        <div class="swiper-container">
+        <div class="swiper mySwiper3">
           <div class="swiper-wrapper">
             <div class="swiper-slide"><span class="swipwetext1">5성급이 6만원대?<br>가성비 5성급 호텔 BEST7</span> 
               <a href="https://triple.guide/articles/75b34bfd-09c2-4f71-81bb-c192b4a2e43f?_triple_no_navbar&_triple_swipe_to_close&utm_source=interpark_mo&utm_medium=display_ad&utm_campaign=interpark_magazine&utm_term=5star_6manwon_hotel7"><img src="resources/images/여행의발견1.jpg"></a></div>
@@ -281,35 +265,14 @@
           <!-- 페이징 -->
           <div class="swiper-pagination"></div>
         </div>
-        <div style="text-align:center; margin-top:5px;"></div>
-        <script>
-          new Swiper('.swiper-container', {
-slidesPerView : 4, // 동시에 보여줄 슬라이드 갯수
-spaceBetween : 1, // 슬라이드간 간격
-slidesPerGroup : 4, // 그룹으로 묶을 수, slidesPerView 와 같은 값을 지정하는게 좋음
-
-// 그룹수가 맞지 않을 경우 빈칸으로 메우기
-// 3개가 나와야 되는데 1개만 있다면 2개는 빈칸으로 채워서 3개를 만듬
-loopFillGroupWithBlank : true,
-
-loop : false, // 무한 반복 true하면 무한반복
-
-pagination : { // 페이징
-  el : '.swiper-pagination',
-  clickable : true, // 페이징을 클릭하면 해당 영역으로 이동, 필요시 지정해 줘야 기능 작동
-},
-navigation : { // 네비게이션
-  nextEl : '.swiper-button-next', // 다음 버튼 클래스명
-  prevEl : '.swiper-button-prev', // 이번 버튼 클래스명
-},
-});
-        </script>
-      </section>
+        <div style="text-align:center; margin-top:5px;"></div> 
+       
+      </section> 
       <!------------------------------------------------------------------------->
       <hgroup>
         <h2 class="maintitle">여행 LIVE</h2>
       </hgroup>
-      <div class="swiper mySwiper">
+      <div class="swiper mySwiper4">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><a href="https://events.interpark.com/exhibition?exhibitionCode=230615008">
             <img src="resources/images/호텔.jpg"><div class="swipwetext6">[라마다 여수$군산] 최대 80% 라이브특가 할인,예약</div>
@@ -324,21 +287,8 @@ navigation : { // 네비게이션
         <div class="swiper-pagination"></div>
       </div>
     
-      <!-- Swiper JS -->
-      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    
-      <!-- Initialize Swiper -->
-      <script>
-        var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 3,
-          spaceBetween: 30,
-          freeMode: true,
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-        });
-      </script>
+      
+      
       
         <!------------------------------------------------------------------------>
       <section>
@@ -581,21 +531,60 @@ navigation : { // 네비게이션
     </div>
   </footer>
 </div>
+<script>
+  
+</script>
   <script>
+    
      var swiper = new Swiper(".mySwiper1", {
       slidesPerView: 2,
       spaceBetween: 30,
       loop: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
+     
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
     });
   </script>
+   <script>
+    new Swiper('.mySwiper3', {
+slidesPerView : 4, // 동시에 보여줄 슬라이드 갯수
+spaceBetween : 1, // 슬라이드간 간격
+slidesPerGroup : 4, // 그룹으로 묶을 수, slidesPerView 와 같은 값을 지정하는게 좋음
+
+// 그룹수가 맞지 않을 경우 빈칸으로 메우기
+// 3개가 나와야 되는데 1개만 있다면 2개는 빈칸으로 채워서 3개를 만듬
+loopFillGroupWithBlank : true,
+
+loop : false, // 무한 반복 true하면 무한반복
+
+
+navigation : { // 네비게이션
+nextEl : '.swiper-button-next', // 다음 버튼 클래스명
+prevEl : '.swiper-button-prev', // 이번 버튼 클래스명
+},
+});
+  </script>
+  <!-- Initialize Swiper -->
+  <script>
+    var myswiper = new Swiper(".mySwiper4", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      
+    });
+  </script>
+  <!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper2', {
+    slidesPerView : 3, // 동시에 보여줄 슬라이드 갯수
+    navigation : { // 네비게이션
+  nextEl : '.swiper-button-next', // 다음 버튼 클래스명
+  prevEl : '.swiper-button-prev', // 이번 버튼 클래스명
+},
+  });
+</script> 
 </body>
 
 </html>

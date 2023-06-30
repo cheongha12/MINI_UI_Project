@@ -26,6 +26,10 @@
 .maintitle {
     text-align: center;
 }
+.swiper-button-next, .swiper-button-prev {
+    color: black;
+}
+
 /*---------배너---------*/
 .swiper-wrapper{
     /* text-align: center; */
@@ -80,7 +84,7 @@
 
 .swiper-slide img {
     /* box-shadow:0 0 5px #555; */
-    max-width: 93%;
+    max-width: 90%;
     /*이미지 사이 칸 나누기*/
 }
 
