@@ -1,3 +1,4 @@
+/*유용한정보 css*/
 .abc > ul{
     list-style: none;
     display: flex;
@@ -12,8 +13,9 @@
     width: 300px;
     height: 100px;
     padding: 25px 25px 0;
+    border-radius: 1.2rem;
 }
-
+/*--------------------------------------*/
 .tourMain * {
     line-height: 1.5;
 }
@@ -22,13 +24,154 @@
     width: 1300px;
     margin: 0 auto;
 }
-
+.maintitle1 {
+    text-align: center;
+}
 .maintitle {
     text-align: center;
 }
 .swiper-button-next, .swiper-button-prev {
     color: black;
 }
+
+mySwiper1 {
+    border-radius: 1.2rem; 
+}
+
+/*헤더 배너 전지현사진*/
+.headerbanner {
+    margin: 0 420px;
+}
+/*중간 메인글자들 목록 띄우기*/
+h2.maintitle{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+/* 금도끼 시작*/
+/*금도끼*/
+.subCategory > ul{
+    list-style: none;
+    display: flex;
+    gap: 25px ;
+    height: auto;
+    justify-content: center;
+    /* border-radius: 25px; */
+    
+}
+.subCategory{
+    width: 1300px;
+    margin: 0 auto;
+    
+}
+.subCategory li{
+    border: 1px solid  gainsboro;
+    border-radius: 50px;
+    position: relative;
+    box-sizing: border-box;
+    width: 185px;
+    height: 66px;
+    align-items: center;
+    vertical-align: middle;
+    padding: 21px 2px 0 12px;
+}
+.subCategory .qqq{
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    left: 70px;
+    top: 22px;
+    font-size: 17px;
+    font-weight: bold;
+   
+    
+}
+.subCategory span >img{
+    position: absolute;
+    top:12px;
+    left: 12px;
+    vertical-align: middle;
+}
+span{
+    color: black;
+}
+/*할인특가상품 더보기*/
+.disbutton {
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+    position: relative;
+    box-sizing: border-box;
+    width: 180px;
+    height: 66px;
+    
+}
+.disbutton > span{
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* 금도끼 끝남*/
+/* 쎄쎄쎄 할인특가 */
+.discount .swiper-slide{
+    display: flex;
+    border: .1rem solid rgba(0,0,0,.05);
+    border-radius: 1.2rem;
+    /* overflow-clip-margin: content-box; */
+    overflow: clip;
+    color: black;
+}
+/*쎄쎄쎄 사진크기 설정 round.in 7.8번쨰 사진*/
+.discount .swiper-slide a .round.in{
+    width: 180px;
+    height: 158.63px;
+}
+.discount .swiper-slide .sesese1, .sesese2, .sesese3{
+    text-align: left;
+}
+.discount .swiper-slide .sesese1 i{
+    font-style: normal;
+    border: 1px solid #73afff;
+    background-color: #e9f0fe;
+    color: #1769ff;
+    border-radius: 3px;
+    font-weight: 500;
+}
+/*할인특가상품 더보기*/
+
+.more{
+    border: 1px solid gainsboro;
+    display: inline-block;
+    padding: 0 2.5rem;
+    line-height:3.5rem;
+    border-radius: 9.9rem;
+    font-size: 15px;
+    font-weight: bold;
+
+  
+}
+.disbutton1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    
+    
+}
+.disbutton1 > morebutton{
+    position: absolute;
+    text-align: center;
+}
+
+
+/*사진 모서리 둥글게 만들기*/
+.round  {
+    border-radius: 1.2rem; 
+}
+
+
+/* .discount01{
+    border: .1rem solid rgba(0,0,0,.05);
+   
+} */
 
 /*---------배너---------*/
 .swiper-wrapper{
@@ -69,6 +212,7 @@
     /* border:5px solid silver; */
     border-radius: 7px;
 }
+
 
 /* box-shadow:0 0 20px #ccc inset;
  */

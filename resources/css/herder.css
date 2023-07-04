@@ -136,8 +136,6 @@ a {
     text-decoration:none;
     margin-right: 30px;
     min-height: 50px;
-    
-    /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
     height: 50px;
     margin-right: 10px;
        
@@ -149,7 +147,6 @@ a {
         font-size: 0;
         vertical-align: top;
         box-sizing: border-box;
-        /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
     }
 }
 
