@@ -10,6 +10,7 @@
 }
 .abc li{
     border: 1px solid gainsboro;
+    
     /* width: 150px;
     height: 150px; */
     position: relative;
@@ -181,6 +182,7 @@ span{
 .swiper-wrapper{
     /* text-align: center; */
     display: flex;
+    gap: 20px;
     /* 내용을 중앙정렬 하기위해 flex 사용 */
     align-items: center;
     /* 위아래 기준 중앙정렬 */
@@ -230,11 +232,11 @@ span{
     /* 좌우 기준 중앙정렬 */
 }
 
-.swiper-slide img {
-    /* box-shadow:0 0 5px #555; */
+/* .swiper-slide img {
+    box-shadow:0 0 5px #555;
     max-width: 90%;
-    /*이미지 사이 칸 나누기*/
-}
+    이미지 사이 칸 나누기
+} */
 
 /* 이미지 최대너비를 제한, 슬라이드에 이미지가 여러개가 보여질때 필요 */
 /* 이 예제에서 필요해서 설정했습니다. 상황에따라 다를 수 있습니다. */
