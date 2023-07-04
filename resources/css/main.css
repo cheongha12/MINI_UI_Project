@@ -90,7 +90,7 @@ a{text-decoration:none; color:#333;}
 .tab_menu .list{
   display: flex;
   justify-content: center;
-  padding: 20px;
+  
 }
 .tab_menu .list li{float:left; margin-right:14px;}
 .tab_menu .list .btn{
@@ -98,7 +98,7 @@ a{text-decoration:none; color:#333;}
   font-size: 20px;
   border: 1px solid black;
   border-radius: 5px;
-  margin: 5px;
+  margin: 20px;
   padding: 10px 5px;
   text-align: center;
   justify-items: center;
