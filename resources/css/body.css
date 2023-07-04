@@ -182,7 +182,6 @@ span{
 .swiper-wrapper{
     /* text-align: center; */
     display: flex;
-    gap: 20px;
     /* 내용을 중앙정렬 하기위해 flex 사용 */
     align-items: center;
     /* 위아래 기준 중앙정렬 */
