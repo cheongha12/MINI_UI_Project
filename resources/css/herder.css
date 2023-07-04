@@ -49,21 +49,21 @@ ul{
 }
 
 .headerserch {
-    position: relative;
+    
     z-index: 90;
     width: 400px;
     margin-left: 100px;
     display: block;
-}
-.headerserch{
-    position: relative;
     align-items: center;
 }
+
 .headerserch1 {
     width: 300px;
+    border-radius: 5px;
 }
 .headerserch2{
-    position: absolute;
+   position:  absolute;
+    
 }
 .aa{
     width: 70%;

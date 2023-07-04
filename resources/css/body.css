@@ -1,4 +1,8 @@
 /*유용한정보 css*/
+.blind{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
 .abc > ul{
     list-style: none;
     display: flex;
