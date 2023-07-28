@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/herder.css">
+    <link rel="stylesheet" href="resources/css/join.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="tourHeader1">
+        <div class="gatewayWrapper">
+          <div class="gatewayInterGate">
+            <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a href="https://www.interpark.com/">홈</a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://tour.interpark.com">투어</a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://ticket.interpark.com">티켓</a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://shop.interpark.com">쇼핑</a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://book.interpark.com">도서</a>
+                </li>
+              </ul>
+            </nav> -->
+            <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a href="javascript:;" onclick="goLoginGN();">로그인</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://member.interpark.com/signup">회원가입</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://tour.interpark.com/mypage/">마이페이지</a>
+                  <div id="divHeaderMypage" class="gatewaySub" style="display: none;">
+                  </div> -->
+                <!-- </li>
+                <li class="nav-item">
+                  <a href="http://tour.interpark.com/customer/">고객센터</a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://tour.interpark.com/freeya/">여행정보</a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://tour.interpark.com/corp/">법인/단체여행</a>
+                </li> -->
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="headWrapper">
+          <div class="headInner">
+            <nav class="navbar navbar-light bg-light">
+              <!--인터파크 로고-->
+              <h1 class="headerLogo">
+                <a href="http://tour.interpark.com">
+                  <img src="/resources/images/인터파크로고.png" alt="">
+                </a>
+              </h1>
+          </div>
+          <div class="headerserch">
+            <input class="headerserch1" type="search" placeholder="~7월14일 국내 숙소 투숙 고객, 4만원 즉시 할인!">
+            <!-- <button class="headerserch2" type="submit"><i class="fa fa-search"></i></button> -->
+            <a class="headerserch2" href="#"><img class="aa" src="/resources/images/btn_search.svg" alt=""></a>
+          </div>
+          <div class="headerbanner">
+            <a href="https://events.interpark.com/exhibition?exhibitionCode=230405006"><img
+                src="resources/images/헤더배너.jpg"></a>
+          </div>
+          </nav>
+        </div>
+        <div class="navigationWrapper">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navigationInner">
+              <div class="localNavigation">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a href="http://sky.interpark.com">항공</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://travel.interpark.com">국내숙소</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://travel.interpark.com/hotel/main">해외숙소</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://travel.interpark.com/voucher">투어.티켓</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://travel.interpark.com/tour/main/package">해외패키지</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://travel.interpark.com/tour/main/domestic">국내/제주</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://travel.interpark.com/tour/main/honey">허니문</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://travel.interpark.com/tour/main/golf">골프</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="seasonNavigation">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a href="http://tour.interpark.com/EasyPack/main" class="seasonBannertravel">여행혜택존</a>
+                    <img class="first" src="/resources/images/banner-travel.svg">
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://events.interpark.com/exhibition?exhibitionCode=230405006"
+                      class="seasonNavigationtrophy">1등특가</a>
+                    <img class="second" src="/resources/images/banner-trophy.svg">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+    <div class="contents">
+        <div class="contentWrapper registContent">
+            <div class="uBlock">
+                <div class="uInputArea">
+                    <div class="col">
+                        <div class="uInput"><label for="inputId">아이디</label>
+                            <div class="inputBox"><input type="text" id="inputId" class="inputText"
+                                    placeholder="6~20자 영문, 숫자" tabindex="1" value=""><button type="button"
+                                    class="btnDel" aria-label="삭제"></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uErrorText" style="display: block;"></div>
+            </div>
+            <div class="uBlock">
+                <div class="uInputArea">
+                    <div class="col">
+                        <div class="uInput"><label for="inputPw">비밀번호</label>
+                            <div class="inputBox"><input type="password" id="inputPw" class="inputText"
+                                    placeholder="8~12자 영문, 숫자, 특수문자" tabindex="2" value=""><button type="button"
+                                    class="btnDel" aria-label="삭제"></button></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="uBtnArea"><button type="button" class="uBtn">보기</button></div>
+                    </div>
+                </div>
+                <div class="uErrorText" style="display: block;"></div>
+            </div>
+            <div class="uBlock">
+                <div class="uInputArea">
+                    <div class="col">
+                        <div class="uInput"><label for="inputPwConfirm">비밀번호 확인</label>
+                            <div class="inputBox"><input type="password" id="inputPwConfirm" class="inputText"
+                                    placeholder="8~12자 영문, 숫자, 특수문자" tabindex="3" value=""><button type="button"
+                                    class="btnDel" aria-label="삭제"></button></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="uBtnArea"><button type="button" class="uBtn">보기</button></div>
+                    </div>
+                </div>
+                <div class="uErrorText" style="display: block;"></div>
+            </div>
+            <div class="uBlock validPeriod">
+                <div class="label">개인정보 유효기간</div>
+                <div class="uRadioBox">
+                    <div class="uRadio"><label><input type="radio" name="radio"><span class="text">탈퇴 시까지</span></label>
+                    </div>
+                    <div class="uRadio"><label><input type="radio" name="radio" checked=""><span
+                                class="text">1년</span></label></div>
+                </div>
+                <div class="uNoticeText">개인정보 유효기간 경과 이후 파기 또는 분리저장, 관리합니다.</div>
+            </div>
+            <div class="uBlock">
+                <div class="uInputArea">
+                    <div class="col">
+                        <div class="uInput"><label for="inputName">이름</label>
+                            <div class="inputBox"><input type="text" id="inputName" class="inputText" tabindex="4"
+                                    value=""><button type="button" class="btnDel" aria-label="삭제"></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uErrorText" style="display: block;"></div>
+            </div>
+            <div class="uBlock">
+                <div class="uInputArea emailType">
+                    <div class="col">
+                        <div class="uInput"><label for="inputEmail">이메일</label>
+                            <div class="inputBox"><input type="text" id="inputEmail" class="inputText" tabindex="5"
+                                    value=""></div>
+                        </div>
+                    </div>
+                    <div class="col selectCol">
+                        <div class="uSelectBox"><label><select tabindex="6">
+                                    <option value="direct">직접입력</option>
+                                    <option value="naver.com">@naver.com</option>
+                                    <option value="hanmail.net">@hanmail.net</option>
+                                    <option value="gmail.com">@gmail.com</option>
+                                    <option value="nate.com">@nate.com</option>
+                                    <option value="hotmail.com">@hotmail.com</option>
+                                </select></label></div>
+                    </div>
+                </div>
+                <div class="uErrorText" style="display: block;"></div>
+                <div class="accountValiBlock" style="display: none;">
+                    <div class="accountGuide"></div>
+                    <p class="blockText">동일 정보로 가입된 계정으로 로그인 하시겠습니까?</p><a href="#" class="btn btnArrow">로그인하기</a>
+                </div>
+            </div>
+            <div class="uBlock">
+                <div class="uInputArea">
+                    <div class="col">
+                        <div class="uInput"><label for="inputCellphone">휴대폰</label>
+                            <div class="inputBox"><input type="text" id="inputCellphone" class="inputText"
+                                    placeholder="010 1234 5678" tabindex="7" value=""><button type="button"
+                                    class="btnDel" aria-label="삭제"></button></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="uBtnArea"><button type="button" class="uBtn borderType">인증번호받기</button></div>
+                    </div>
+                </div>
+                <div class="uErrorText" style="display: none;">점유인증을 하여 휴대폰 번호를 등록해주세요. 등록한 번호는 로그인 이후 변경 가능합니다.</div>
+                <div class="accountValiBlock" style="display: none;">
+                    <div class="accountGuide"></div>
+                    <p class="blockText">동일 정보로 가입된 계정으로 로그인 하시겠습니까?</p><a href="#" class="btn btnArrow">로그인하기</a>
+                </div>
+            </div>
+            <div class="uBlock" style="display: none;">
+                <div class="uInputArea">
+                    <div class="col">
+                        <div class="uInput"><label for="inputCertifyNum">인증번호</label>
+                            <div class="inputBox"><input type="text" id="inputCertifyNum" class="inputText" tabindex="8"
+                                    value=""><button type="button" class="btnDel" aria-label="삭제"></button></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="uBtnArea"><button type="button" class="uBtn borderType">재발송</button><button
+                                type="button" class="uBtn borderType">확인</button></div>
+                    </div>
+                </div>
+                <div class="certifyTime" style="display: none;">인증유효시간 <span classq="time">00:00</span></div>
+            </div>
+            <div class="uBlock checkBlock">
+                <div class="uCheckbox"><label><input type="checkbox"><span class="text">SMS, 이메일로 상품 및 이벤트 정보를
+                            받겠습니다.(선택)</span></label></div>
+                <div class="uCheckbox"><label><input type="checkbox"><span class="text">14세 미만입니다.</span></label></div>
+                <div class="uErrorText" style="display: none;">14세 미만 가입시 법정대리인 동의 필수 입니다.</div>
+            </div>
+            <div class="uBlock">
+                <p class="blockText">만 14세 미만 회원은 법정대리인(부모님) 동의를 받은 경우만 회원가입이 가능합니다.</p>
+            </div>
+            <div class="uBlock" style="display: none;">
+                <div class="uInputArea">
+                    <div class="col">
+                        <div class="uInput"><label for="inputAgreeName">이름</label>
+                            <div class="inputBox"><input type="text" id="inputAgreeName" class="inputText"
+                                    value=""><button type="button" class="btnDel" aria-label="삭제"></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uErrorText" style="display: block;"></div>
+            </div>
+            <div class="uBlock" style="display: none;">
+                <div class="uInputArea emailType">
+                    <div class="col">
+                        <div class="uInput"><label for="inputAgreeEmail">이메일</label>
+                            <div class="inputBox"><input type="text" id="inputAgreeEmail" class="inputText" value="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col selectCol">
+                        <div class="uSelectBox"><label><select>
+                                    <option value="direct">직접입력</option>
+                                    <option value="naver.com">@naver.com</option>
+                                    <option value="hanmail.net">@hanmail.net</option>
+                                    <option value="gmail.com">@gmail.com</option>
+                                    <option value="nate.com">@nate.com</option>
+                                    <option value="hotmail.com">@hotmail.com</option>
+                                </select></label></div>
+                    </div>
+                </div>
+                <div class="uErrorText" style="display: block;"></div>
+            </div>
+            <div class="uBlock agreeBlock" style="display: none;">
+                <div class="uInputArea">
+                    <div class="col"><span class="label">가입동의받기</span></div>
+                    <div class="col">
+                        <div class="uBtnArea"><button type="button" class="uBtn borderType sType">법정대리인 본인 인증</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ubtnArea">
+                <div class="col"><button type="button" class="uBtn point" disabled="">가입완료</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
